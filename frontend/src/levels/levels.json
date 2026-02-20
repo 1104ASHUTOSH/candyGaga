@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "gridSize": 6,
+    "moves": 20,
+    "objectives": { "collect": { "red": 10, "blue": 12 } },
+    "blockers": { "ice": 6 },
+    "difficulty": "easy"
+  },
+  {
+    "id": 2,
+    "gridSize": 7,
+    "moves": 24,
+    "objectives": { "collect": { "green": 14, "yellow": 14 } },
+    "difficulty": "medium"
+  },
+  {
+    "id": 3,
+    "gridSize": 8,
+    "moves": 28,
+    "objectives": { "collect": { "purple": 18, "red": 18 } },
+    "difficulty": "hard"
+  }
+]

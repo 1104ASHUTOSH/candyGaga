@@ -1,0 +1,12 @@
+{
+  "name": "candygaga",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "install:all": "npm install --workspaces",
+    "lint": "npm run -w frontend lint && npm run -w backend lint",
+    "test": "npm run -w frontend test && npm run -w backend test",
+    "build": "npm run -w frontend build && npm run -w backend build"
+  }
+}

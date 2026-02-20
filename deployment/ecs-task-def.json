@@ -1,0 +1,13 @@
+{
+  "family": "candygaga-backend",
+  "containerDefinitions": [
+    {
+      "name": "api",
+      "image": "YOUR_ECR_IMAGE",
+      "portMappings": [{ "containerPort": 4000, "hostPort": 4000 }],
+      "environment": [
+        { "name": "NODE_ENV", "value": "production" }
+      ]
+    }
+  ]
+}
